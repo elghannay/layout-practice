@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.abt {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 1px 1px 5px grey;
+  background-color: whitesmoke;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+  font-size: 2vw;
+  text-transform: capitalize;
+  color: grey;
+}
+span {
+  font-size: 2vw;
+  display: inline-block;
+  text-align: center;
+}
+.botton {
+  background-color: rgba(66, 180, 195, 0.233);
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.icon {
+  stroke-width: 1;
+  fill: pink;
+  stroke: white;
+}

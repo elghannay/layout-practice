@@ -16,9 +16,12 @@ body {
   height: 100vh;
   font-family: sans-serif;
 }
-/* section{
-  width: 100%;
-} */
+.transition {
+  transition-property: background-color, color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  transition
+}
 a {
   color: white;
 }
@@ -59,7 +62,6 @@ header div a {
   text-decoration: none;
   font-family: fantasy;
 }
-
 
 .icon {
   width: 1.5rem;

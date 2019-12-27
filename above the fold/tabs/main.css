@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  /* width: 800px; */
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  height: 100px;
+  width: 700px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+button {
+  font-size: 1.6rem;
+  flex-grow: 1;
+  border: 0;
+  background-color: white;
+  height: 6.2rem;
+  border-bottom: 5px solid transparent;
+  outline: none;
+}
+button:hover {
+  border-bottom: 5px solid rgb(238, 78, 78);
+  cursor: pointer;
+}

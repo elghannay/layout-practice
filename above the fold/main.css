@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(background-photo.jpg);
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+/* section{
+  width: 100%;
+} */
+a {
+  color: white;
+}
+a:hover {
+  color: blanchedalmond;
+}
+/* start header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 2.4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+header nav,
+header nav a,
+header nav svg {
+  display: none;
+}
+
+header div p {
+  margin-right: 10px;
+}
+header div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 100%;
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke-width: 0;
+  stroke: white;
+  fill: white;
+}
+/* end header styles */
+
+div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 27vh;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.3rem;
+}
+h3 {
+  font-size: 0.8rem;
+}
+button {
+  padding: 0.8rem 1.5rem;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+}
+button:hover {
+  background-color: grey;
+}
+.icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}

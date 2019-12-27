@@ -1,0 +1,31 @@
+header {
+  justify-content: space-between;
+}
+header div,
+header nav {
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header nav {
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  padding: 5px;
+}
+header nav a:hover {
+  background-color: rgba(250, 235, 215, 0.226);
+  border-radius: 5px;
+}
+div {
+  height: 21vh;
+}

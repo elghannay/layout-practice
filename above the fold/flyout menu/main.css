@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+input {
+  display: none;
+}
+label {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-color: rgb(18, 20, 18);
+  padding: 20px 30px;
+  color: white;
+  border-radius: 10px;
+  z-index: 1;
+}
+ul {
+  position: relative;
+  top: 0rem;
+  background-color: rgba(233, 230, 23, 0.609);
+  width: 20%;
+  height: 100vh;
+  border: 1px solid pink;
+  left: -20%;
+  transition: all 1s ease-in-out;
+}
+li {
+  margin: 40px 30px;
+  list-style-type: none;
+  font-size: 2vw;
+}
+input[type='checkbox']:checked ~ ul {
+  left: 0;
+}

@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+header div {
+  width: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+header nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+a:hover {
+  background-color: rgba(128, 128, 128, 0.205);
+  color: rgb(59, 59, 214);
+}
+.bg {
+  background-image: url(img/adventure-lg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.cta h1 {
+  padding: 15px 0 20px 0;
+}
+.cta button {
+  padding: 10px 30px;
+  font-size: 2rem;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  border-radius: 5px;
+}
+.cta button:hover {
+  background-color: rgb(51, 127, 240);
+}
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+img {
+  margin: 1px;
+}

@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+#atf {
+  background-image: url(images/g_s_03_five.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.281);
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.logo {
+  color: rgba(255, 255, 255, 0.774);
+  font-size: 32px;
+  font-weight: 800;
+}
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign span {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+}
+.sign button {
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 72px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+h1:hover {
+  color: red;
+}
+.action {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+.ft-btn {
+  padding: 40px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.transparent {
+  color: rgba(255, 255, 255, 0.781);
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.bq {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+}
+.bq blockquote {
+  margin-bottom: 20px;
+}
+.bq button {
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+}
+.bq button:hover {
+  background-color: rgba(231, 31, 31, 0.986);
+}
